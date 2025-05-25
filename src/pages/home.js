@@ -28,8 +28,8 @@ const home = function() {
                             "Sunday: 9am - 12pm"]
 
     for (var i = 0; i < scheduleArray.length; i++) {
-        var li = createElement("li");
-        li.innerText = array[i];
+        var li = document.createElement("li");
+        li.innerText = scheduleArray[i];
         schedule.appendChild(li);
     }
     scheduleContainer.appendChild(schedule);
